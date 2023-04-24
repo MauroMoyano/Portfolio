@@ -11,6 +11,7 @@ export default function Home() {
 
   return (
     <>
+      <title>MauroMoyanoDev</title>
       <div>
         <Nav />
       </div>
