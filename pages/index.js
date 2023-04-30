@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Nav from "../components/Nav/Nav"
+import Projects from '../components/Projects/projects'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,12 +14,22 @@ export default function Home() {
   return (
     <> 
       <title>MauroMoyanoDev</title>
-      <div>
-        <Nav />
-      </div>
+      <header calss="">
+        <div>
+          <h1>Mauro Moyano</h1>
+          <p>Full Stack Web Developer</p>
+        </div>
+      <form acrion="">
+        <input type="text" id='barra-busqueda' placeholder='Buscar'></input>
+      </form>
+      <Nav />
+      <Projects />
+</header>
     <span>
     <h1>{text}</h1>
     </span>
+    <div>
+    </div>
     <div>
       <p>{description}</p>
     </div>
