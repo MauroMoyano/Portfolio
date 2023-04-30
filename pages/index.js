@@ -10,7 +10,7 @@ export default function Home() {
   const caracteres = text.length // type number, this for CSS.
 
   return (
-    <>
+    <> 
       <title>MauroMoyanoDev</title>
       <div>
         <Nav />
