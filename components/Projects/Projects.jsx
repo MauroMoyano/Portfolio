@@ -8,7 +8,16 @@ export default function Projects(){
          <Link href="#" className="btn btn-blue btn-blue:hover">Todos</Link>
          <Link href="#" className="btn btn-blue btn-blue:hover">Academicos</Link>
          <Link href="#" className="btn btn-blue btn-blue:hover">FreeLancer</Link>
-       <div className="flex flex-wrap">
+       <div className="flex flex-wrap py-4 space-x-6">
+       <a href="#">
+        <Image src="/img/emprendar.jpg" alt="Emprendar" width={250} height={150}/>
+       </a>
+       <a href="#">
+        <Image src="/img/emprendar.jpg" alt="Emprendar" width={250} height={150}/>
+       </a>
+       <a href="#">
+        <Image src="/img/emprendar.jpg" alt="Emprendar" width={250} height={150}/>
+       </a>
        <a href="#">
         <Image src="/img/emprendar.jpg" alt="Emprendar" width={250} height={150}/>
        </a>
