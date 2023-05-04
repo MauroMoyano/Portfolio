@@ -3,9 +3,9 @@ export default function Contact () {
         <>
         <h1>Contact me</h1>
         <form >
-            <input type="text" placeholder="Tu nombre" className="block text-gray-700 font-bold mb-2" />
-            <input type="email" placeholder="Tu e-mail" className="block text-gray-700 font-bold mb-2" />
-            <textarea name="userMenssage" cols="30" rows='10' placeholder="Deja tu mensaje" className="block text-gray-700 font-bold mb-2" />
+            <input type="text" placeholder="Tu nombre" className="appearance-none border rounded w-40% py-2 px-3 bg-slate-800 text-green-400 leading-tight focus:outline-none focus:shadow-outline" id="name" />
+            <input type="email" placeholder="Tu correo electronico" className="appearance-none border rounded w-40% py-2 px-3 bg-slate-800 text-green-400 leading-tight focus:outline-none focus:shadow-outline" id="email" />
+            <textarea id="userMenssage" cols="30" rows='10' placeholder="Deja tu mensaje" className="appearance-none border rounded w-60% py-2 px-3 block mb-2 bg-slate-800 text-green-400 " />
         </form>
 
         </>
