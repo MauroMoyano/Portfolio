@@ -16,18 +16,18 @@ export default function Home() {
   return (
     <>
       <title>MauroMoyanoDev</title>
-      <header calss="">
+      <header  className="bg-auto bg-blue-300">
         <div>
           <h1>Mauro Moyano</h1>
           <p>Full Stack Web Developer</p>
         </div>
         <Nav />
       </header>
-      <div>
+      <div className="bg-auto bg-slate-500">
         <Projects />
         <h1>{text}</h1>
       </div>
-      <div>
+      <div className="bg-auto bg-zinc-900">
         <Skills />
       </div>
       <div className="bg-auto bg-slate-500">
