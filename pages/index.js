@@ -5,6 +5,7 @@ import Nav from "../components/Nav/Nav";
 import Projects from "../components/Projects/projects";
 import { Inter } from "next/font/google";
 import Skills from "@/components/Skills/Skills";
+import Layout from "@/components/Layout/Layout";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,23 +18,20 @@ export default function Home() {
     <>
       <title>MauroMoyanoDev</title>
       <header  className="bg-auto bg-blue-300">
-        <div>
-          <h1>Mauro Moyano</h1>
-          <p>Full Stack Web Developer</p>
-        </div>
-        <Nav />
+        <Layout />
+        
       </header>
-      <div className="bg-auto bg-slate-500">
+      <div className="bg-auto bg-slate-500 min-h-screen" id="projects">
         <Projects />
         <h1>{text}</h1>
       </div>
-      <div className="bg-auto bg-zinc-900">
+      <div className="bg-auto bg-zinc-900 min-h-screen">
         <Skills />
       </div>
-      <div className="bg-auto bg-slate-500">
+      <div className="bg-auto bg-slate-500 min-h-screen" id="about">
         <About />
       </div>
-      <div className="bg-auto bg-zinc-900">
+      <div className="bg-auto bg-zinc-900 min-h-screen" id="contact">
       <Contact />
       </div>
       <div className="bg-auto bg-slate-500">
