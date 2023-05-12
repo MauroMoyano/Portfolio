@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const text =
-    "Mauro Crea su portfolio para poder mostrar sus habilidades en ciertas tecnologias.";
+    "Mauro Crea su portfolio para poder mostrar sus habilidades en ciertas tecnologias. ";
   const caracteres = text.length; // type number, this for CSS.
 
   return (
