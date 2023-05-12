@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
 
       <footer className="flex justify-center items-center h-16 bg-gray-800 text-white fixed bottom-0 w-full">
         <div className="w-full h-screen flex items-center justify-center">
-          <div className="w-full h-screen flex items-center justify-center p-3%">
+          <div className="w-full h-screen flex items-center justify-center">
             <a
               href="https://twitter.com/MauroMoyanoDev"
               aria-label="Twitter"
