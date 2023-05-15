@@ -19,7 +19,7 @@ export default function Projects() {
               <Image
                 src="/img/emprendar.jpg"
                 alt="Emprendar"
-                width={250}
+                width={250} 
                 height={150}
               />
             </a>
