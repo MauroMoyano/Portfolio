@@ -49,7 +49,6 @@ const Layout = ({ children }) => {
             <p>© {new Date().getFullYear()} Mauro Moyano</p>
           </div>
         </div>
-        
       </footer>
     </>
   );
